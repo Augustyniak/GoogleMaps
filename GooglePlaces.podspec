@@ -1,8 +1,5 @@
 {
   "authors": "Google, Inc.",
-  "dependencies": {
-    "GoogleMaps/Base": "2.2.0"
-  },
   "description": "Use the Google Places API for iOS to enrich your app with detailed information from Google's Places database.",
   "homepage": "https://developers.google.com/places/ios/",
   "license": {
@@ -112,7 +109,7 @@
     "Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle"
   ],
   "source": {
-    "http": "https://dl.google.com/dl/cpdc/0913e10f828db816/GooglePlaces-2.2.0.tar.gz"
+    "http": "https://raw.githubusercontent.com/Augustyniak/GoogleMaps/master/GooglePlaces-2.2.0.tar"
   },
   "summary": "Google Places API for iOS.",
   "vendored_frameworks": [
