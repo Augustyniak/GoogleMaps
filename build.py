@@ -129,7 +129,8 @@ def main():
     cmd = ["lipo", "-output", output, "-create"] + dylibs
     execute(cmd)
 
-    framework = "{build}".format(name=POD_NAME, build=BUILD_DIR)
+    framework = "{build}/Maps/Frameworks/{name}.framework".format(name=POD_NAME,
+                                                                  build=BUILD_DIR)
     print color(u"\U0001f680  Copying Info.plist ...")
     print("INFO PLIST FILE PATH \n")
     print(framework)
