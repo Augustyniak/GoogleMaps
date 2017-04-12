@@ -134,7 +134,7 @@ def main():
     print color(u"\U0001f680  Copying Info.plist ...")
     print("INFO PLIST FILE PATH \n")
     print(framework)
-    # shutil.copy("./Info.plist", framework)
+    shutil.copy("./Info.plist", framework)
 
     print color(u"\U0001f680  Replacing binary and creating tar.gz ...")
     shutil.move(output, BINARY)
