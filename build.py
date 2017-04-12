@@ -132,7 +132,6 @@ def main():
     framework = "{build}/Maps/Frameworks/{name}.framework".format(name=POD_NAME,
                                                                   build=BUILD_DIR)
     print color(u"\U0001f680  Copying Info.plist ...")
-    print("INFO PLIST FILE PATH \n")
     print(framework)
     shutil.copy("./Info.plist", framework)
 
